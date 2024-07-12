@@ -111,7 +111,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 65%;
     height: auto;
 }
 
@@ -119,15 +119,13 @@ hr {
     padding: 10px;
 }
 .bloque_img{
-    width: 45%;
-    height: 280px;
+    width: 30%;
     display: flex;
+    justify-items: center;
     justify-content: center;
-    align-items: center;
 }
 .bloque_img img{
-    width: 100%;
-    height: 250px;
+    height: 100%;
 }
 /* Bloque Vacunación */
 .bloque_Vacunas{
