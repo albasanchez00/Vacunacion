@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="autho" content="Alba Sánchez Olmedo" />
+    <meta name="keywords" content="Formulario,HTML,CSS" />
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="icon" type="image/jpg" href="img/logosescam.ico">
+</head>
+
+<body>
+    <div class="header">
+        <!-- Logo icon -->
+        <img src="img/logo-CLM.png" alt="logo CLM">
+
+        <!-- Titulo de la página -->
+        <h1>Calendario de Vacunación Infantil</h1>
+
+        <!-- Logo Sescam -->
+        <img src="img/logo-sescam.png" alt="logo Sescam">
+    </div>
+    <hr>
+
+    <section class="desplegable">
+        <!-- Opciones para visualizar las vacunas -->
+
+
+    </section>
+
+    <!-- Icono Accesibilidad -->
+    <div class="icon-accesibilidad" onclick="mostrarOcultar()">
+        <img src="img/icono-accesibilidad.svg" alt="icono-accesibilidad">
+    </div>
+
+
+    <!-- Barra lateral de Accesibilidad -->
+    <div class="accesibilidad">
+        <h2>Accesibilidad</h2>
+        <button id="aumentar">Aumentar Fuente</button>
+        <button id="reducir">Reducir Fuente</button>
+        <button id="escalaGris">Escala Grises</button>
+        <button id="altoContras">Alto Contraste</button>
+        <button id="reset">Restablecer</button>
+    </div>
+
+    <section class="bloque_texto">
+        <div class="texto">
+            <p>El 16 de enero de 2023 entra en vigor el nuevo Calendario de Vacunaciones de Castilla-La Mancha de aplicación a lo largo de toda la vida y recomendado para todas las personas residentes en esta comunidad autónoma.</p>
+            <p>La prevención de las enfermedades se configura como una actuación específica de la prestación de salud pública. Precisamente, en el ámbito de las competencias de la Consejería de Sanidad se encuentra la de impulsar acciones de prevención como la vacunación.</p>
+            <p>Para adaptarse a la situación epidemiológica del momento y a la aparición de nuevas vacunas o variaciones técnicas de las ya existentes, el calendario vacunal experimenta ampliaciones y modificaciones. </p>
+        </div>
+        <picture class="bloque_img">
+            <img src="img/calendario.png" alt="calendario vacunación">
+        </picture>
+    </section>
+
+
+    <section class="bloque_Vacunas">
+        <div>
+            <h2>Vacunación</h2>
+            <form id="vacunas" class="vacunas">
+                <label for="edad">Edad:</label>
+                <select id="edades">
+                    <option value="">Seleccionar...</option>
+                </select>
+            </form>
+            <p id="respuesta"></p>
+        </div>
+    </section>
+    <!-- LLamada al JS (script) -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
