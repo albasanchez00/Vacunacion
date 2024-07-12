@@ -85,6 +85,7 @@ hr {
     right: 11px;
     border: 1px solid #005199;
     border-radius: 5%;
+    transition: right 0.3s ease;
 }
 
 .icon-accesibilidad:hover {
